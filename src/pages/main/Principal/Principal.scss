@@ -1,0 +1,96 @@
+.Principal{
+    background-color: var(--bg-color);
+    @media (min-width: 1024px) { 
+        grid-template-columns: 2fr 3fr; 
+    }
+}
+.Principal--Title{
+    justify-self: flex-end;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--principal-font);
+}
+
+.Principal--Title--Text{
+    margin: 0;
+    line-height: 64px;
+    transform: rotate(-10deg);
+    font-weight: 800;
+}
+
+#Green{
+    color: #59A3A1;
+    margin-right: 4.5px;
+}
+
+#Yellow{
+    color: #F9B781;
+    line-height: 60px;
+    @media (min-width: 768px) { 
+        line-height: 125px;
+    }
+}
+
+#White{
+    margin-left: 25px;
+    color: #FFFFFF;
+}
+
+#Secondary{
+    font-weight: 400;
+    transform: rotate(0);
+    margin: 30px 0;
+    line-height: 16px;
+}
+
+.Principal--Visual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+
+    background-image: url("../../../assets/bgPrincipal.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-size: 70%;
+    @media (min-width: 1024px) { 
+        background-size: 80%;
+    }
+    
+}
+
+.Principal--Visual--Border{
+    transform: rotate(10deg);
+    background-color: #B483E1;
+    z-index: 2;
+    border-radius: 60px;
+    outline: 25px solid #13123A;
+    border: 9px solid white;
+    @media (min-width: 1024px) { 
+        outline: 30px solid #13123A;
+        border: 10px solid white;
+        border-radius: 96px;
+    }
+    @media (min-width: 1280px) { 
+        outline: 35px solid #13123A;
+        border: 12px solid white;
+        border-radius: 130px;
+    }
+}
+
+.Principal--Visual--Border--Img{
+    margin-right: 40px;
+    z-index: 1;
+}
+
+.Principal--Visual--Bg{
+    position: absolute;
+    z-index: 0;
+    margin-top: 100px;
+    height: 60%;
+}

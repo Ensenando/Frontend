@@ -1,11 +1,11 @@
-import { Input } from "@mui/material";
+import { Principal } from "../Principal";
+import { Slide } from "../Slide";
 
 export const Root = () => {
   return (
     <>
-      <h1 className="text-red-300">Root</h1>
-      <input className="text-red-300" type="text" />
-      <Input type="text" />
+      <Principal></Principal>
+      <Slide></Slide>
     </>
   );
 };

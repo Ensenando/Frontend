@@ -1,0 +1,26 @@
+.Login {
+    background-color: var(--bg-color);
+    &--Container{
+        border-radius: 50px;
+        &--Title{
+            font-family: var(--principal-font);
+            color: #59A3A1;
+        }
+        &--Label{
+            font-family: var(--principal-font);
+            color: var(--bg-strong);
+        }
+        &--Input{
+            background-color: #F3F3F3;
+            border-radius: 10px;
+            border: 0;
+            font-family: var(--principal-font);
+        }
+        &--Right{
+            transform: rotate(12deg);
+        }
+        &--Left{
+            transform: rotate(-12deg);
+        }
+    }
+}

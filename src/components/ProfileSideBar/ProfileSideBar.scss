@@ -1,0 +1,19 @@
+.ProfileSideBar{
+    background-color: #EBF6FA;
+    &--Title{
+        font-family: var(--principal-font);
+    }
+    &--Text{
+        font-family: var(--principal-font);
+    }
+    &--Navbar{
+        background-color: #D5C3DB;
+        border-bottom: 1px solid #9777A6;
+    }
+    &--Selected{
+        background-color: #691DAE;
+    }
+    // &--NotSelected{
+    //     background-color: #D5C3DB;
+    // }
+}

@@ -1,0 +1,23 @@
+.NotificacionCard{
+    display: grid;
+    grid-template-columns: 40px auto;
+    &--Alert{
+        border-bottom: 1px solid #F58484;
+    }
+    &--Success{
+        border-bottom: 1px solid #78AE3E;
+    }
+    &--Title{
+        font-family: var(--principal-font);
+    }
+    &--Text{
+        font-family: var(--principal-font);
+    }
+    &--Mark{
+        font-family: var(--principal-font);
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+}

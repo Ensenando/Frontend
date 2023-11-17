@@ -1,0 +1,9 @@
+.MenuActivity{
+    font-family: var(--principal-font);
+    &--Icon{
+        background-color: rgba(#691DAE, 0.5);
+        &__Completed{
+            background-color: #691DAE;
+        }
+    }
+}

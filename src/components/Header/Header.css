@@ -1,0 +1,26 @@
+.Header{
+    height: 80px;
+}
+
+.Header--Nav{
+    list-style: none;
+}
+
+.Header--Nav--Content{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.Header--Nav--Content--Item{
+    cursor: pointer;
+}
+
+.Header--Button{
+    display: flex;
+    gap: 20px;
+}
+
+.Header--Logo{
+    margin-top: 20px;
+}

@@ -1,0 +1,23 @@
+.SideBar{
+    width: 425px;
+    background-color: white;
+    border-radius: 20px;
+    height: 800px;
+    &--Content{
+        border-radius: 30px;
+        background-color: #D5C3DB;
+        &--Selected{
+            background-color: white;
+            color: black;
+        }
+        &--NoSelected{
+            background-color: transparent;
+            color: white;
+        }
+        &--Item{
+            padding: 10px 25px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+    }
+}

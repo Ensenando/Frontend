@@ -1,0 +1,11 @@
+.AC3{
+    border-radius: 30px;
+    &--Square{
+        width: 100%;
+        height: 100%;
+        background-color: skyblue;
+    }
+    &--Container{
+        height: 1000px;
+    }
+}

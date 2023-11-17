@@ -1,0 +1,9 @@
+.Slide{
+    height: auto;
+    background-color: var(--bg-green);
+}
+
+.Slide--Title{
+    font-family: var(--principal-font);
+    color: white;
+}
