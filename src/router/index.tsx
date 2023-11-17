@@ -5,11 +5,10 @@ import { MainLayout } from "../pages/main/layout";
 import { AuthLayout } from "../pages/auth/layout";
 import { PlatformLayout } from "../pages/platform/layout";
 import { ProfileLayout } from "../pages/profile/layout";
-import { Login } from "../pages/auth/Login";
-import { Register } from "../pages/auth/Register";
+import { Login } from "../pages/auth/login";
+import { Register } from "../pages/auth/register";
 import { Root } from "../pages/main/root";
 
-import { Lection } from "../pages/platform/Lection";
 import { MenuActivity } from "../pages/platform/Lection/MenuActivity";
 import { AC1 } from "../pages/platform/Lection/AC1";
 import { AC2 } from "../pages/platform/Lection/AC2";
